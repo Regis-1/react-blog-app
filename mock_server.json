@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Welcome in my blog!",
+      "date": "2021-02-21",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis viverra tristique. Ut libero turpis, imperdiet ut consequat et, pellentesque aliquet nisl. Etiam sapien justo, finibus sed metus at, pretium mollis leo. Cras gravida risus diam, at dapibus orci tincidunt quis. Nunc ex libero, maximus nec"
+    },
+    {
+      "id": 2,
+      "title": "First anniversary ^^",
+      "date": "2022-02-22",
+      "body": "Lorem sit amet, consectetur adipiscing elit. Nullam iaculis viverra tristique. Ut libero turpis, imperdiet ut consequat et, pellentesque aliquet nisl at, pretium mollis leo. Cras gravida risus diam, at dapibus orci tincidunt quis. Nunc ex libero, maximus nec"
+    },
+    {
+      "id": 3,
+      "title": "About Chappie...",
+      "date": "2021-05-01",
+      "body": "Chappie is a really nice drone. I like him so much. He was in my family from the beginning and he had helped us in various of situations."
+    },
+    {
+      "id": 4,
+      "title": "About Tony...",
+      "date": "2021-05-05",
+      "body": "Chappie is a imperdiet ut consequat et, pellentesque of iaculis viverra tristique. Ut libero turpis, imperdiet ut consequat et, pellentesque aliquet nisl at."
+    },
+    {
+      "id": 5,
+      "title": "New workshop",
+      "date": "2021-07-23",
+      "body": "Suspendisse ultricies, nibh sit amet pharetra porta, augue nulla commodo eros, vitae accumsan risus lectus eu ligula. Suspendisse eleifend augue pulvinar elit lacinia, at placerat nunc facilisis. Cras ut aliquet elit. Duis eget turpis ultricies, lacinia eros sit amet, varius purus. Nullam ipsum sapien,"
+    }
+  ]
+}

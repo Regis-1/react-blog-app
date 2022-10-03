@@ -17,20 +17,23 @@ code {
 /* App Component */
 .App {
   display: flex;
+  flex-flow: column;
   justify-content: center;
+  align-items: center;
   margin-top: 1em;
   color: rgb(177, 250, 60);
 }
 
 /* NavBar Component */
 .NavBar {
-  max-width: 80%;
+  max-width: 1000px;
   min-width: 1000px;
   /* background-color: aquamarine; */
   display: flex;
   flex-flow: row;
   justify-content: space-between;
   padding: 0 10px 0 10px;
+  border-bottom: 2px solid;
 }
 
 .NavBar h1 {
@@ -56,3 +59,51 @@ code {
   filter: brightness(0.75);
 }
 
+/* Home Component */
+.Home {
+  margin-top: 30px;
+  max-width: 1000px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.PostList {
+  max-width: 70%;
+}
+
+.Post {
+  padding: 16px;
+  border: 2px solid;
+  margin-bottom: 16px;
+}
+
+.Post h4 {
+  border-bottom: 1px solid;
+}
+
+/* PeriodFilter Component */
+.PeriodFilter {
+  max-width: 20%;
+  min-width: 20%;
+  height: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  border: 2px solid;
+}
+
+.PeriodFilter h4 {
+  margin: 5px 5px 5px 5px;
+}
+
+.MonthFilter:hover {
+  cursor: pointer;
+  filter: brightness(0.75);
+}
+
+/* AddPost Component */
+.AddPost {
+  margin-top: 30px;
+  max-width: 1000px;
+}

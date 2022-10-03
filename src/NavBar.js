@@ -1,11 +1,13 @@
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 const NavBar = () => {
     return (
         <div className="NavBar">
-            <h1>Drone blog</h1>
+            <h1>Drone blog 🤖</h1>
             <div className="NavLinks">
-                <a href='/'>Home</a>
-                <a href='/'>Add post</a>
-                <a href='/'>Contact</a>
+                <Link to='/'>Home</Link>
+                <Link to='/addPost'>Add post</Link>
+                <Link to='/contact'>Contact</Link>
             </div>
         </div>
     )
