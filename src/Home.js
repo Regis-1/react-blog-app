@@ -8,11 +8,9 @@ const Home = () => {
   const [dates, setDates] = useState(null);
 
   const handleFilter = (monthFilter) => {
-    console.log(allBlogs);
     const filtered = allBlogs.filter((post) => {
       return post.date.substring(0,7) === monthFilter
     });
-    console.log(filtered);
     setBlogs(filtered);
   }
 

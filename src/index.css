@@ -105,5 +105,62 @@ code {
 /* AddPost Component */
 .AddPost {
   margin-top: 30px;
-  max-width: 1000px;
+  min-width: 1000px;
+  display:flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.formDiv {
+  display: flex;
+  flex-flow: column;
+  min-width: 60%;
+  align-items: center;
+  border: 2px solid;
+  padding: 10px 20px 10px 20px;
+}
+
+.formDiv textarea {
+  min-height: 20vh;
+  min-width: 100%;
+  margin-bottom: 10px;
+}
+
+.formDiv input[type=date] {
+  max-width: 20%;
+  margin-bottom: 10px;
+}
+
+.dateDiv {
+  display: flex;
+  flex-flow: column;
+  min-width: 100%;
+  margin-bottom: 10px;
+}
+
+.formDiv input[type=submit] {
+  max-width: 20%;
+  min-width: 20%;
+  min-height: 30px;
+  background-color: rgb(177, 250, 60);
+  border: none;
+  border-radius: 5px;
+}
+
+.formDiv input[type=submit]:hover {
+  cursor: pointer;
+  filter: brightness(0.75);
+}
+
+.formDiv input[type=text] {
+  min-width: 100%;
+  margin-bottom: 10px;
+}
+
+#labelContent {
+  min-width: 100%;
+}
+
+#labelTitle {
+  min-width: 100%;
 }
