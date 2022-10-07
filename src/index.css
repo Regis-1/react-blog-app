@@ -234,3 +234,9 @@ code {
 .FeedbackForm div {
   min-width: 100%;
 }
+
+/* PageNotFound Component */
+
+.PageNotFound {
+  margin-top:30px;
+}
