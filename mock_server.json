@@ -29,6 +29,12 @@
       "title": "New workshop",
       "date": "2021-07-23",
       "body": "Suspendisse ultricies, nibh sit amet pharetra porta, augue nulla commodo eros, vitae accumsan risus lectus eu ligula. Suspendisse eleifend augue pulvinar elit lacinia, at placerat nunc facilisis. Cras ut aliquet elit. Duis eget turpis ultricies, lacinia eros sit amet, varius purus. Nullam ipsum sapien,"
+    },
+    {
+      "title": "New post from AddPost component",
+      "body": "Hello everyone!\nThis is the post added from the same page, but the other component. Specifically it was AddPost component, so I hope it will work...\nJD",
+      "date": "2022-10-06",
+      "id": 6
     }
   ]
 }

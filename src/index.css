@@ -28,7 +28,6 @@ code {
 .NavBar {
   max-width: 1000px;
   min-width: 1000px;
-  /* background-color: aquamarine; */
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -107,14 +106,14 @@ code {
   margin-top: 30px;
   min-width: 1000px;
   display:flex;
-  flex-flow: row;
+  flex-flow: column;
   justify-content: center;
+  align-items: center;
 }
 
 .formDiv {
   display: flex;
   flex-flow: column;
-  min-width: 60%;
   align-items: center;
   border: 2px solid;
   padding: 10px 20px 10px 20px;
@@ -123,6 +122,7 @@ code {
 .formDiv textarea {
   min-height: 20vh;
   min-width: 100%;
+  max-width: 100%;
   margin-bottom: 10px;
 }
 
@@ -162,5 +162,75 @@ code {
 }
 
 #labelTitle {
+  min-width: 100%;
+}
+
+.AddPost form {
+  max-width: 60%;
+  min-width: 60%;
+}
+
+/* Contact Component */
+.Contact {
+  margin-top: 30px;
+  max-width: 1000px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.AboutMe {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.SendInfo form {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.FeedbackForm {
+  min-width: 60%;
+  max-width: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  padding: 10px 20px 10px 20px;
+}
+
+.FeedbackForm h2 {
+  margin: 0px 0px 40px 0px;
+}
+
+.FeedbackForm input[type=email] {
+  margin-bottom: 10px;
+  min-width: 100%;
+}
+
+.FeedbackForm textarea {
+  margin-bottom: 40px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+}
+
+.FeedbackForm input[type=submit] {
+  max-width: 20%;
+  min-width: 20%;
+  min-height: 30px;
+  background-color: rgb(177, 250, 60);
+  border: none;
+  border-radius: 5px;
+}
+
+.FeedbackForm input[type=submit]:hover {
+  cursor: pointer;
+  filter: brightness(0.75);
+}
+
+.FeedbackForm div {
   min-width: 100%;
 }
